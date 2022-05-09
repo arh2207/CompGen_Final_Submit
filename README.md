@@ -42,17 +42,17 @@ devtools::install_github('https://github.com/arh2207/APTestPipeline')
 devtools::install_github('https://github.com/jchiquet/aricode')
 ```
 
-Disclosure: the APTestPipeline package was released by the author Andrew as part of 
-a separate experiment on the APClustering algorithm for the class ML4FG.  From
-the package, we call a few functions for conveniency in parts of this analysis.
-No code from the ML4FG was duplicated in the submission for this class, and none
-of the functions provided in the package are submitted as part of this
-assignment.  Furthermore, the submitted papers do not reuse any material between
-projects.
+Disclosure: the APTestPipeline package, which is installed above as part of this
+analysis, was released by the author Andrew in a separate experiment on the 
+APClustering algorithm for the class ML4FG.  From that package, we call a few 
+functions for conveniency in parts of this analysis.  No code from the ML4FG was
+duplicated in the submission for this class, and none of the functions provided in
+the package are submitted as part of this assignment.  Furthermore, the submitted 
+papers do not reuse any material between projects.
 
 --------------------------------------------------------------------------------
 
-Important notes:
+*** Important notes:
 
 Objects which take a long time to run have their outputs pre-computed and functions
 commented out.  Functions may be un-commented to test.  
@@ -71,6 +71,8 @@ A grader who wants to see a simplified version of our analysis should look at te
 in the base directory.  We have removed all long runtime functions, but there are still
 some that may take a moderate time to run (~2 minutes).  It may help to know these functions
 in advance:
+```
 SCTransform
 RunUMAP
 RunTSNE
+```

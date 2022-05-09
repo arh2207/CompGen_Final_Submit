@@ -29,6 +29,7 @@ directory.  Make sure that the working directory is set to the base directory of
 the submission on your local device. In order to run the code, the following
 packages will have to be installed:
 
+```
 install.packages(c("cluster", "ggplot2", "devtools", "Seurat", 
                    "pheatmap", "BiocManager", "RColorBrewer", 
 		   "stringr", "apcluster", "igraph", "Matrix",
@@ -39,6 +40,7 @@ devtools::install_github("JEFworks/MUDAN")
 devtools::install_github(repo = "califano-lab/PISCES", force = TRUE, build_vignettes = TRUE)
 devtools::install_github('https://github.com/arh2207/APTestPipeline')
 devtools::install_github('https://github.com/jchiquet/aricode')
+```
 
 Disclosure: the APTestPipeline package was released by the author Andrew as part of 
 a separate experiment on the APClustering algorithm for the class ML4FG.  From
